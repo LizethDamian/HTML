@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pedido</title>
+        </head>
+    <body>
+   <h1>Favor de llenar el formulario</h1>
+   <form action="pedido.js">
+       <label for="Nombre">Nombre del viajero</label> <br>
+       <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br>
+       <label for="Mesa">Ingresa el numero de cohete(Se encuentra en el servilletero)</label><br>
+       <input type="number" id="Mesa" name="Mesa" placeholder="Mesa"><br>
+ 
+       <p>Lo comeras en tu planeta (Casa) o en la estacion (aquí)</p>
+       <input type="radio" id="Planeta" name="Planeta" value="planeta">
+       <label for="html">En mi Planeta</label><br>
+       <input type="radio" id="estacion" name="estacion" value="estacion">
+       <label for="css">En la estació</label><br>
+       
+    <label for="Mercurio">Mercurio</label>
+    <input type="checkbox" id="Mercurio" name="Mercurio" value="Mercurio"><br>
+    <input type="number" id="NumeroMercurio" name="NumeroMercurio" placeholder="Cuantos?"><br>
+
+    <label for="Venus">Venus</label>
+    <input type="checkbox" id="Venus" name="Venus" value="Venus"><br>
+    <input type="number" id="NumeroVenus" name="NumeroVenus" placeholder="Cuantos?"><br>
+
+    <p>A brincos no pasa... Elige tu bebida</p>
+    <select name="bebida" id="bebidas">
+        <option value="CocaCola">CocaCola</option>
+        <option value="Fanta">Fanta</option>
+        <option value="Boing Mango">Boing Mango</option>
+        <option value="Boing Guayaba">Boing Guayaba</option>
+
+    </select>
+    <br><br>
+    <input type="reset" onclick="alert('Al poner aceptar, se eliminara su orden')">
+    <input type="button" id="Pedido" name="Pedido" value="Realizar Pedido" onclick="alert('Nuestos aliens estan trabajando para entregarte tus tacos a la VELOCIDAD DE LA LUZ!!');"><br>
+    
+   </form>
+    </body>
+</html>

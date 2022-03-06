@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios</title>
+        </head>
+    <body>
+        <h1>Explicación de elementos compuestos</h1>
+        
+        <!--Entradas / Inputs-->
+        <!-- Labels (Etiquetar input)-->
+        <label for="Input1">Ejemplo de input<br> Coloca tu nombre:</label>
+        <br>
+        <input type="text" id="Input1" name="Input1">
+        <br><br>
+        <hr>
+        <!--Tipo de inputs-->
+        <h2>Tipo de input </h2>
+        
+    <label for="correo1">Correo electronico</label><br>
+    <input type="email" id="correo1" name="correo1"><br><br>
+    <!--El codigo de numeros solo te permite el ingreso de numeros -->
+    <label for="numero1">No. Boleta</label><br>
+    <input type="number" id="numero1" name="numero1"><br><br>
+
+    <label for="telefono">No. Telefono</label><br>
+    <input type="tel" id="telefono" name="telefono" maxlength="10"><br><br>
+
+    <label for="psw1">Input de Password</label><br>
+    <input type="password" id="psw1" name="psw1"><br><br>
+
+    <label for="url1">Input de URL</label><br>
+    <input type="url" id="url1" name="url1"><br><br>
+
+
+    <label for="Ingrediente1">Cebolla</label>
+    <input type="checkbox" id="Ingrediente1" name="Ingrediente1" value="Cebolla">
+    <label for="I2">Cilantro</label>
+    <input type="checkbox" id="I2" name="I2" value="Cilantro">
+    <label for="I3">Salsa</label>
+    <input type="checkbox" id="I3" name="I3" value="Salsa">
+<br><br>
+    <label for="Color1">Input Color</label><br><br>
+    <input type="color" id="Color1" name="Color1"><br><br>
+
+    <label for="fecha1">Input de Fecha</label><br><br>
+    <input type="date" id="fecha1" name="fecha1"><br>
+    <input type="datetime-local" id="fecha2" name="fecha2"><br>
+    <input type="week" id="fecha3" name="fecha3"><br>
+    <input type="time" id="fecha4" name="fecha4"><br>
+    <input type="month" id="fecha5" name="fecha5"><br><br>
+
+    <label for="archivo1">Input de Archivo</label><br><br>
+    <input type="file" id="archivo1" name="archivo1" multiple><br><br>
+
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label><br>
+    <input type="radio" id="css" name="fav_language" value="css">
+    <label for="css">CSS</label><br>
+    <input type="radio" id="JavaScript" name="fav_language" value="JavaScript">
+    <label for="JavaScript">JavaScript</label><br>
+    
+    <label for="vol">Volumen</label><br>
+    <input type="range" id="vol" name="vol" min="0" max="200"><br>
+
+    <input type="reset"><br>
+    <input type="submit"><br>
+
+    <input type="button" id="boton1" name="boton1" value="Boton 1" onclick="alert('Verifica que los datos sean correctos');"><br>
+
+
+    
+
+
+    </body>
+</html>
